@@ -92,7 +92,7 @@ router.delete('/blog/:id',async(request,response)=>{
         })
     }
 })
-app.get('/blog/:id', async (req,res)=>{
+/* app.get('/blog/:id', async (req,res)=>{
     let id = req.query.id;
     //id = id ? id : 0;
 
@@ -111,7 +111,7 @@ app.get('/blog/:id', async (req,res)=>{
     }
 })
   
-
+ */
 
 module.exports = router;
 /* app.get('/post/:id', async (request,response)=>{
